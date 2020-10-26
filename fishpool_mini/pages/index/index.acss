@@ -1,0 +1,24 @@
+@import '/app.acss';
+page{
+  background-image: linear-gradient(180deg, #a8c0ff, #3f2b96)
+}
+.logo{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 50%;
+  margin-top: 200rpx;
+}
+.button{
+  border-radius: 30rpx;
+  border:1rpx solid white;
+  width:600rpx;
+  margin-bottom: 30rpx;
+}
+.chatImg{
+  width:70rpx;
+  height:60rpx;
+}
+.toast{
+  width:600rpx;
+  padding:30rpx;
+}

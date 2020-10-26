@@ -1,0 +1,33 @@
+<view class="background z_10">
+  <image class="background z_10" src="/img/back.jpg" mode="aspectFill"/>
+</view>
+
+<view class="width_100 z_20">
+  <view class="width_100 z_20 margin_bottom_50">
+    <image class="width_100 z_20 cloudAnimation" src="/img/cloud.png" mode="widthFix" />
+  </view>
+  <view class="bubleContainer flex_row width_100 center">
+    <view>
+      <image class="buble bubleAnimation1" src="/img/buble.png" mode="widthFix" onTap="toDetail"/>
+    </view>
+    <view>
+      <image class="buble bubleAnimation2 margin_top_20" src="/img/buble.png" mode="widthFix" onTap="toDetail"/>
+    </view>
+  </view>
+  <view class="flex_column right z_20 center">
+    <!-- <image class="operateBtn" src="/img/list.png"/> -->
+    <view class="flex_column center">
+      <image class="operateBtn" src="/img/talk.png" onTap="toPost"/>
+      <text class="text_guid white">向鱼塘倾诉</text>
+    </view>
+    <view class="flex_column center margin_top_30">
+      <image class="operateBtn" src="/img/list.png" onTap="toMe"/>
+      <text class="text_guid white">今天猫猫回复我了吗？</text>
+    </view>
+  </view>
+</view>
+<!-- <view class="flex-column chat z_30">
+  <view class="flex_column center chatContainer bg_white">
+    <text class="text_guid">快来找我聊天，没人会知道你是谁（程序员忘记存名字了，将错就错吧w）</text>
+  </view>
+</view> -->

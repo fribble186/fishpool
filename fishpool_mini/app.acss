@@ -1,0 +1,220 @@
+page {
+  flex: 1;
+  display: flex;
+}
+.width_100{
+  width:100%;
+}
+.height_100{
+  height:100%
+}
+
+
+/* 文字类 */
+
+.text_center{
+  text-align: center;
+}
+.text_right{
+  text-align: right
+}
+.text_left{
+  text-align: left
+}
+.bold{
+  font-weight: bold
+}
+.text_title{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 52rpx;
+  font-weight: bold;
+}
+.text_intro{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:36rpx;
+}
+.text_contents{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:28rpx;
+}
+.text_guid{
+  font-size:18rpx;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* 颜色类 */
+
+.black{
+  color: #333333
+}
+.white{
+  color:white
+}
+.gray{
+  color: gray
+}
+.heavyBlue{
+  background: #0069ff
+}
+.lightBlue{
+  background: #1ea3fe
+}
+.blueBack{
+  background-image: linear-gradient(180deg, #0069ff, #1ea3fe)
+}
+.bg_white{
+  background-color: white
+}
+
+
+/* margin类 */
+.margin_20{
+  margin:20rpx
+}
+.margin_30{
+  margin:30rpx
+}
+.margin_40{
+  margin:40rpx
+}
+.margin_50{
+  margin:50rpx
+}
+.margin_top_20{
+  margin-top:20rpx
+}
+.margin_right_20{
+  margin-right:20rpx
+}
+.margin_bottom_20{
+  margin-bottom:20rpx
+}
+.margin_left_20{
+  margin-left:20rpx
+}
+.margin_top_30{
+  margin-top:30rpx
+}
+.margin_right_30{
+  margin-right:30rpx
+}
+.margin_bottom_30{
+  margin-bottom:30rpx
+}
+.margin_left_30{
+  margin-left:30rpx
+}
+.margin_top_40{
+  margin-top:40rpx
+}
+.margin_right_40{
+  margin-right:40rpx
+}
+.margin_bottom_40{
+  margin-bottom:40rpx
+}
+.margin_left_40{
+  margin-left:40rpx
+}
+.margin_top_50{
+  margin-top:50rpx
+}
+.margin_right_50{
+  margin-right:50rpx
+}
+.margin_bottom_50{
+  margin-bottom:50rpx
+}
+.margin_left_50{
+  margin-left:50rpx
+}
+
+
+/* padding类 */
+
+.padding_LR_40{
+  padding:0rpx 40rpx;
+}
+.padding_TB_40{
+  padding:40rpx 0rpx;
+}
+.padding_40{
+  padding:40rpx;
+}
+.padding_LR_20{
+  padding:0rpx 20rpx;
+}
+.padding_TB_20{
+  padding:20rpx 0rpx;
+}
+.padding_20{
+  padding:20rpx;
+}
+
+
+/* flex相关 */
+
+.flex_1{
+  flex:1
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+}
+.flex_column{
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  align-items: center;
+  justify-content: center
+}
+.justify_center{
+  justify-content: center
+}
+.align_center{
+  align-items:center;
+}
+
+
+/* image大小类 */
+
+.logo{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+}
+.avater{
+  width:50rpx;
+  height:50rpx;
+  border-radius: 50%;
+}
+.block{
+  width:10rpx;
+  height:35rpx;
+  background-color: #333;
+  margin-right:20rpx;
+}
+
+
+/* 层级类 */
+
+.z_10{
+  z-index: 10
+}
+.z_20{
+  z-index: 20
+}
+.z_30{
+  z-index: 30
+}
+
+
+/* 分割类 */
+
+.fg{
+  width:100%;
+  height:1rpx;
+  background-color: #F2EFE6;
+}

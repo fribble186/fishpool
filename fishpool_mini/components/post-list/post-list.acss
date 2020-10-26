@@ -1,0 +1,12 @@
+@import '/app.acss';
+.bg-mask {
+  height:200rpx;
+  background-color: rgba(1, 1, 1, 0.5);
+  position: relative;
+  color: white;
+}
+.bg-img {
+  height:200rpx;
+  width:100%;
+  margin-bottom:-210rpx;
+}

@@ -1,0 +1,23 @@
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+.text_xl { font-size: 32rpx;}
+.text_l { font-size: 28rpx;}
+.text_m { font-size: 24rpx;}
+.text_s { font-size: 20rpx;}
+.bold { font-weight: bold;}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.justify_center{
+  justify-content: center;
+}
+.align_center{
+  align-items: center
+}

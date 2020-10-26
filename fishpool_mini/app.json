@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/list/list",
+    "pages/post/post/post",
+    "pages/bbs/list/list",
+    "pages/bbs/bbs/bbs",
+    "pages/bbs/bbs-post/bbs-post",
+    "pages/bbs/detail/detail",
+    "pages/map/map"
+  ],
+  "window": {
+    "defaultTitle": "鱼塘"
+  }
+}

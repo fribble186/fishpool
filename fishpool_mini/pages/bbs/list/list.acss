@@ -1,0 +1,31 @@
+@import '/app.acss';
+.bbslist{
+  padding:20rpx;
+}
+.bbs_bg{
+  height:300rpx;
+  border-radius: 20rpx;
+  padding:0rpx 0rpx;
+  margin-bottom:30rpx;
+  background-color: white
+}
+.bg_border1 {
+  border-bottom: 20rpx solid #6739b6;
+}
+.bg_border2 {
+  border-bottom: 20rpx solid #a5673f;
+}
+.bg_border3 {
+  border-bottom: 20rpx solid #a5673f;
+}
+.input{
+  position: fixed;
+  bottom:0;
+}
+.write{
+  position: fixed;
+  width:50rpx;
+  height:60rpx;
+  bottom:50rpx;
+  right:50rpx;
+}

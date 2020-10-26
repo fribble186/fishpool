@@ -1,0 +1,21 @@
+@import '/app.acss';
+.cardView{
+  border-radius: 30rpx;
+  width:600rpx;
+  padding:30rpx;
+  margin-bottom:50rpx;
+}
+.cardView:nth-child(3n+1){
+  background:#9a7aff
+}
+.cardView:nth-child(3n+2){
+  background:#48affc
+}
+.cardView:nth-child(3n+3){
+  background:#f87c9e
+}
+.cardImg{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 50%
+}

@@ -1,0 +1,11 @@
+@import '/app.acss';
+.cardContainer{
+  width:650rpx;
+  box-shadow:2rpx 2rpx 30rpx rgba(0,0,0, 0.2);
+  border-radius: 20rpx;
+}
+.cardContent{
+  background-color: rgba(0,0,0, 0.9);
+  padding:20rpx 20rpx;
+  height:300rpx;
+}

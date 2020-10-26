@@ -1,0 +1,14 @@
+.back{
+  width:80rpx;
+  height:80rpx;
+  position:fixed;
+  top:50rpx;
+  left:50rpx;
+}
+.back_1{
+  width:80rpx;
+  height:80rpx;
+}
+.image{
+  width:100vw;
+}

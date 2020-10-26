@@ -1,0 +1,30 @@
+.back{
+  width:80rpx;
+  height:80rpx;
+  margin:50rpx;
+}
+.column{
+  margin-bottom:30rpx;
+  padding-bottom:20rpx;
+  margin-left:50rpx;
+  margin-right:50rpx;
+}
+.input{
+  width:200rpx;
+  border-bottom:1rpx solid black;
+  text-align: center;
+  margin-left:50rpx;
+}
+.q{
+  width:300rpx;
+}
+.cal_btn{
+  width:100vw;
+  background:#0252d9;
+  color:white;
+  height:100rpx;
+}
+.result{
+  font-size:100rpx;
+  color:#0252d9;
+}

@@ -1,0 +1,11 @@
+require('@alipay/appx-compiler/lib/sjsEnvInit');
+require('./config$');
+require('../../components/post/post');
+require('../../components/bbs-card/bbs-card');
+require('../../pages/index/index');
+require('../../pages/post/list/list');
+require('../../pages/post/post/post');
+require('../../pages/bbs/list/list');
+require('../../pages/bbs/bbs/bbs');
+require('../../pages/bbs/bbs-post/bbs-post');
+require('../../pages/bbs/detail/detail');

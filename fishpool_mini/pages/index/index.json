@@ -1,0 +1,7 @@
+{
+  "titleBarColor": "#a8c0ff",
+  "defaultTitle": "鱼塘",
+  "usingComponents": {
+    "toast-c": "/components/toast/toast"
+  }
+}

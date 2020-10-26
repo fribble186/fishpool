@@ -1,0 +1,17 @@
+<view class="width_100 flex_column align_center margin_top_50">
+  <view class="width_100 text_left margin_left_20 margin_bottom_50">
+    <text a:if="{{data[0].type==1}}" class="text_title bold">棚景详情</text>
+    <text a:elif="{{data[0].type==2}}" class="text_title bold">样片欣赏</text>
+    <text a:else="{{data[0].type==3}}" class="text_title bold">活动介绍</text>
+  </view>
+
+  <view a:for="{{data}}" class="cardView flex_row center" onTap="toPostDetail" data-id="{{item.id}}" a:if="{{!item.hide}}">
+    <view class="cardImg">
+      <image class="cardImg" src="{{item.bannerImg}}"/>
+    </view>
+    <view class="flex_column flex_1 margin_left_50">
+      <text class="text_intro bold white">{{item.title}}</text>
+    </view>
+  </view>
+
+</view>

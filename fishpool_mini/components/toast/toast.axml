@@ -1,0 +1,3 @@
+<view class="toastContainer flex_column center height_100 width_100" catchtouchMove="none" catchTap="tapHide" a:if="{{!hideToast}}">
+  <slot></slot>
+</view>

@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cal/cal",
+    "pages/rooms/rooms",
+    "pages/detail/detail",
+    "pages/intro/intro",
+    "pages/rental/rental"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鱼塘小助手",
+    "navigationBarTextStyle":"black"
+  }
+}

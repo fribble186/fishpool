@@ -1,0 +1,36 @@
+@import "/app.qss";
+
+.logo {
+  width: 300rpx;
+  height: 300rpx;
+  margin-right: 50rpx;
+}
+.title{
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+.slide{
+  width:100vw;
+  height:30vw;
+}
+.slide_image{
+  width: 90vw;
+  margin-right:5vw;
+  margin-left:5vw;
+}
+.btns{
+  width:80vw;
+  margin-left:10vw;
+  margin-top:30rpx;
+}
+.btn{
+  border-radius:30rpx;
+  width:220rpx;
+  height:220rpx;
+  margin-top:20rpx;
+  color:black;
+}
+.icon{
+  width:80rpx;
+  height:80rpx;
+}

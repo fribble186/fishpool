@@ -1,0 +1,12 @@
+<view class="width_100">
+  <view class="width_100 flex_column">
+    <view class="inputHint white">偷偷的向树洞倾诉吧~</view>
+    <textarea class="inputArea text_center bg_color{{curId}}" onInput="bindinput"></textarea>
+  </view>
+  <view class="width_100 flex_row typeList">
+    <view class="typeBtn text_center flex_1 bg_color1" data-id="1" onTap="selectType">表白</view>
+    <view class="typeBtn text_center flex_1 bg_color2" data-id="2" onTap="selectType">吐槽</view>
+    <view class="typeBtn text_center flex_1 bg_color3" data-id="3" onTap="selectType">扩列</view>
+  </view>
+  <view class="width_100 bottomBtn text_center padding_TB_40 text_intro bold" onTap="bindBBSSubmit">发表</view>
+</view>

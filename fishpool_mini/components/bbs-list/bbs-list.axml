@@ -1,0 +1,15 @@
+<view class="bbslist width_100">
+  <view class="bbs_bg bg_color{{item.type}}" a:for="{{data}}">
+    <view class="padding_40">
+      <view class="text_intro margin_bottom_20">{{item.contents}}</view>
+      <view class="text_guid margin_bottom_20">{{item.time}}</view>
+      <view>
+        <image class="avater" src="/img/people.png"/>
+        <text class="text_guid">匿名</text>  
+      <view>
+    </view>
+  </view>
+</view>
+<view class="write">
+  <image class="write" onTap="postBBS" src="/img/write.png"/>
+</view>

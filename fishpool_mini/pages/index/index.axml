@@ -1,0 +1,31 @@
+<view class="flex_column width_100 align_center">
+  <view class="flex_column align_center">
+    <image class="logo" src="/img/logo.jpg"/>
+    <view class="flex_row">
+      <text class="text_title white margin_top_30 margin_left_50">鱼塘工作室</text>
+      <image src="/img/chat.png" class="chatImg" onTap="showToast"/>
+    </view>
+  </view>
+  <view class="flex_1"></view>
+  <view class="width_100 flex_column align_center margin_bottom_50">
+    <view class="button flex_row center padding_TB_20" onTap="toPost" data-ptype="scene">
+      <text class="text_contents white">开始游览</text>
+    </view>
+    <view class="button flex_row center padding_TB_20" onTap="toPost" data-ptype="imgbook">
+      <text class="text_contents white">正片图鉴</text>
+    </view>
+    <view a:if="{{showActivity}}" class="button flex_row center padding_TB_20" onTap="toPost" data-ptype="activity">
+      <text class="text_contents white">活动介绍</text>
+    </view>
+    <view class="button flex_row center padding_TB_20" onTap="toHole">
+      <text class="text_contents white">鱼塘树洞</text>
+    </view>
+  </view>
+</view>
+
+<toast-c class="width_100" ref="toastc">
+  <view class="toast flex_column center text_center">
+    <text class="text_contents white margin_bottom_50">{{intro}}</text>
+    <text a:if="{{showDoor}}" class="text_contents white margin_top_50">{{doorContents}}</text>
+  </view>
+</toast-c>

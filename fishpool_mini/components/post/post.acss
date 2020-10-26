@@ -1,0 +1,13 @@
+@import '/app.acss';
+.banner{
+  height:200rpx;
+}
+.header{}
+.body{}
+.map{
+  width:92rpx;
+  height:72rpx;
+  position: fixed;
+  bottom:50rpx;
+  right:20rpx;
+}

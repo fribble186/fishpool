@@ -1,0 +1,8 @@
+<view class="flex_column align_center width_100">
+  <view a:for="{{data}}" data-id="{{item.id}}" onTap="toDetail">
+    <bbs-card showComment="{{false}}" data="{{item}}"/>
+  </view>
+  <view a:if="{{data.length==0}}" class="height_100 width_100 flex_column center text_center">
+    <text class="text_title">你是不是还没试过向树洞倾诉？试试吧！</text>
+  </view>
+</view>

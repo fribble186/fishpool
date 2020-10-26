@@ -1,0 +1,10 @@
+<view class="width_100 padding_LR_40">
+  <view hidden="true"></view>
+  <view a:for="{{data}}" data-id="{{item.id}}" onTap="toPostDetail">
+    <image class="bg-img" src="{{item.bannerImg}}"/>
+    <view class="bg-mask flex_column padding_LR_40">
+      <view class="text_title margin_top_30">{{item.title}}</view>
+      <view class="text_intro margin_top_30">{{item.intro}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<button class="login_btn_view" open-type="getAuthorize" onTap="click" hover-class="none">
+  <slot></slot>
+</button>

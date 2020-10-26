@@ -1,0 +1,14 @@
+<view class="width_100">
+  <view class="header padding_LR_40 margin_top_30">
+    <view class="flex_row align_center text_title margin_bottom_30" style="color:#333">
+      <image class="logo" src="/img/logo.jpg"/>
+      <text a:if="{{data.type==1}}">棚子名称：{{data.title}}</text>
+      <text a:elif="{{data.type==2}}">样片名称：{{data.title}}</text>
+      <text a:else="{{data.type==3}}">活动名称：{{data.title}}</text>
+    </view>
+  </view>
+  <view class="width_100 body" a:for="{{data.image}}">
+    <image class="width_100 margin_top_30" src="{{item.src}}" mode="widthFix"/>
+  </view>
+</view>
+<image a:if="{{data.type==1}}" src="/img/map.png" class="map" onTap="toMap"></image>

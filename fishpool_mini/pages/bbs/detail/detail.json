@@ -1,0 +1,7 @@
+{
+  "titleBarColor": "#67ade8",
+  "defaultTitle": "鱼塘树洞",
+  "usingComponents": {
+    "bbs-card": "/components/bbs-card/bbs-card"
+  }
+}

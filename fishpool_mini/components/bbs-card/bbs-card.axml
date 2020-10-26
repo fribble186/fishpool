@@ -1,0 +1,17 @@
+<view class="margin_top_50 cardContainer flex_column">
+  <view class="cardContent flex_column align_center">
+    <text class="text_guid white">一位不愿意透露姓名的路人</text>
+    <text class="text_intro white bold margin_top_50">{{data.contents}}</text>
+  </view>
+  <view class="flex_row padding_20">
+    <text class="text_contents gray">赞{{data.love}}</text>
+    <text class="text_contents gray margin_left_30">评论{{data.comment.length?data.comment.length:data.comment}}</text>
+  </view>
+  <view class="fg"/>
+  <view a:if="{{showComment}}" class="flex_column margin_top_20 padding_LR_20" a:if="{{data.comment.length!=0}}" a:for="{{data.comment}}">
+    <text class="text_guid gray">{{index+1}}楼</text>
+    <text class="text_intro padding_20">{{item.contents}}</text>
+    <view class="fg margin_bottom_20"/>
+  </view>
+  <view class="cardComment padding_40 text_center bold" a:if="{{data.comment.length==0 && showComment}}">还没有评论哦</view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "titleBarColor": "#0069ff",
+  "defaultTitle": "树洞",
+  "usingComponents": {
+    "bbs-card": "/components/bbs-card/bbs-card"
+  }
+}

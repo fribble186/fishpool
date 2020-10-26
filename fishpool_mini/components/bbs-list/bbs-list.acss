@@ -1,0 +1,33 @@
+@import '/app.acss';
+.bbslist{
+  background-color: #333;
+}
+.bbs_bg{
+  height:300rpx;
+  border-radius: 10rpx;
+  padding:0rpx 0rpx;
+  margin-bottom:30rpx;
+}
+.bg_color1 {
+  background-color: #6739b6;
+  color: #fff;
+}
+.bg_color2 {
+  background-color: #e03997;
+  color: #fff;
+}
+.bg_color3 {
+  background-color: #a5673f;
+  color: #fff;
+}
+.input{
+  position: fixed;
+  bottom:0;
+}
+.write{
+  position: fixed;
+  width:50rpx;
+  height:60rpx;
+  bottom:50rpx;
+  right:50rpx;
+}

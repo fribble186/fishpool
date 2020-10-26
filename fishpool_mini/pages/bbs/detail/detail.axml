@@ -1,0 +1,10 @@
+<view class="width_100 flex_column align_center">
+  <bbs-card data="{{data}}"/>
+</view>
+
+<view class="bottomContainer flex_row width_100 center">
+  <input class="inputArea flex_1" maxlength=140 confirm-type="send" onInput="bindinput" value="{{inputvalue}}">{{inputvalue}}</input>
+  <view class="flex_row center {{sendBtnClass}}" onTap="sendComment">
+    <text>发送</text>
+  </view>
+</view>
